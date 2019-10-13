@@ -1,0 +1,11 @@
++ ./denoise ../input/5perSaPnoise.png
+Image size: 256x384
+CPU execution time: 109.151 ms
+GPU execution time: 135.635 ms
+Percentage difference: 71.6044 %
++ ./measure_noise ./input.jpg
+The average noise (stddev) is: 50.4887
++ ./measure_noise ./output_cpu.jpg
+The average noise (stddev) is: 39.6036
++ ./measure_noise ./output_gpu.jpg
+The average noise (stddev) is: 50.4887
